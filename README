@@ -1,0 +1,13 @@
+Plain Text Plugin for django-cms
+
+
+Requirements
+
+    - django-cms >= 3
+
+
+Installation
+
+1. Add 'djangocms_plain_text' to your INSTALLED_APPS.
+
+2. Run 'manage.py migrate djangocms_plain_text'.
