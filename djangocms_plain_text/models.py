@@ -1,12 +1,9 @@
-# -*- coding: utf-8 -*-
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from cms.models import CMSPlugin
-from cms.utils.compat.dj import python_2_unicode_compatible
+from cms.models.pluginmodel import CMSPlugin
 
 
-@python_2_unicode_compatible
 class PlainText(CMSPlugin):
     """
     A plain text plugin

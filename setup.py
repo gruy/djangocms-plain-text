@@ -4,13 +4,12 @@ from os import path, sep
 from distutils.core import setup
 
 
-version = '0.1'
+version = '0.2.0'
 
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: BSD License",
-    "Programming Language :: Python :: 2.6",
     "Programming Language :: Python :: 2.7",
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries",
